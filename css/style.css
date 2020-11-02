@@ -145,15 +145,16 @@ nav {
   padding: 100px 0 0 70px;
 }
 
-.sector .part {
+.first-section .sector .part {
   padding-bottom: 25px;
 }
 
-.sector .top .autor {
+.first-section .sector .top .autor {
   padding: 15px 0 0 10px;  
 }
 
-.sector .arrow {
+.first-section .sector .arrow,
+.second-section .arrow {
   width: 20px;
   height: 10px;
   margin-top: 200px;
@@ -180,9 +181,75 @@ nav {
 }
 
 
-.second-section .sectors {
+.second-section .sectors .first-sector {
   display: grid;
-  grid-template-columns: 720px 1fr 1fr;
-  grid-template-rows: 720px 1fr 1fr;
-  border: 5px solid salmon;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  transition: 0.1s ease-out;
+}
+
+.second-section .sectors .first-sector .article {
+  border: chartreuse 1px solid;
+  padding: 30px 40px 0 40px;
+  cursor: pointer;
+  height: 508.47px;
+  overflow: hidden;
+}
+
+.second-section .sectors .first-sector .article:hover {
+  transform: scale(1.1);
+  background-color:hsla(220, 20%, 3%,0.05);
+}
+
+.second-section .sectors .first-sector .article .top {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.second-section .sectors .first-sector .article .top .days {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: lighter;
+  color: #666666;
+}
+
+.second-section .sectors .first-sector .article .top .tittle,
+.second-section .tittle a {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.second-section .sectors .first-sector .article .top .autor,
+.second-section .autor a {
+  color: #333333;
+  font-size: 0.95em;
+}
+
+.second-section .sectors .first-sector .article .center {
+  line-height: 2;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.second-section .sectors .first-sector .article .arrow2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 229px;
+  margin-left: -39px;
+}
+
+.second-section .sectors .first-sector .article:hover .arrow2 {
+  background-color: black;
+  margin-left: -20px;
+  width: 70px;
+  height: 70px;
+  margin-top: 180px;
+}
+
+.second-section .sectors .first-sector .special .arrow2 {
+  margin-top: 201px;
+  margin-left: -40px;
 }
