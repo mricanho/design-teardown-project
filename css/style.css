@@ -1,4 +1,4 @@
-/* degradados de grises:
+/* grey degradation:
   1.hsla(220, 20%, 3%,0.05) = l4
   2.hsla(220, 20%, 3%,0.3) = l3
   3.hsla(220, 20%, 3%,0.7) = l2
@@ -6,17 +6,19 @@
   */
   
 html {
+  display: flex;
+  justify-content: center;
   font-family: sans-serif;
   line-height: 20px;
 }
 
 body {
   background-color: white;
-  width: 100%;
-  height: auto;
+  width: 1440px;
+  height: 100%;
   box-sizing: border-box;
-  font-family: 'Belgrano', serif;
   font-family: 'Lato', sans-serif;
+  font-family: 'Belgrano', serif;
   color: #333333;
 }
 
@@ -34,6 +36,12 @@ body {
 
 .l4 {
   background: hsla(220, 20%, 3%,0.05);
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 700;
+  box-sizing: border-box;
 }
 
 header {
@@ -71,4 +79,25 @@ nav {
 .search-bar {
   width: 350px;
   height: 57px;
+}
+
+
+.first-section .tittle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  margin-left: 510px;
+  margin-top: 50px;
+}
+
+
+.first-section .sectors {
+  display: grid;
+  grid-template-columns: 720px 1fr;
+  grid-template-rows: 675.5px 675.5px;
+}
+
+.sectors > article {
+  border: 1px solid greenyellow;
 }
