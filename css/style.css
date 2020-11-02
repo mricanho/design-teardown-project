@@ -6,11 +6,24 @@
   */
   
 html {
-  display: flex;
   justify-content: center;
   font-family: sans-serif;
   line-height: 20px;
 }
+
+html, nav,
+.header-container,
+.first-section .tittle,
+.sector, .top {
+  display: flex;
+}
+
+.first-section .tittle,
+.sector {
+  flex-direction: column;
+}
+
+
 
 body {
   background-color: white;
@@ -38,20 +51,26 @@ body {
   background: hsla(220, 20%, 3%,0.05);
 }
 
-h1 {
-  font-size: 37px;
+h1, h2,
+h3, h4 {
   font-weight: 700;
   box-sizing: border-box;
 }
 
-header {
+h1, h2 {
+  font-size: 37px;
+}
 
+h4 {
+  font-size: 22px;
+}
+
+header {
   height: 72px;
   padding: 16px 40px;
 }
 
 nav {
-  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
@@ -62,8 +81,13 @@ nav {
   height: 71px;
 }
 
+.photo {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #666666;
+}
+
 .header-container {
-  display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
@@ -76,28 +100,70 @@ nav {
   height: 20px;
 }
 
-.search-bar {
+.nav-bar .search-bar {
   width: 350px;
   height: 57px;
 }
 
 
 .first-section .tittle {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   align-items: center;
   margin-left: 510px;
   margin-top: 50px;
+  z-index: 999;
 }
 
 
 .first-section .sectors {
   display: grid;
   grid-template-columns: 720px 1fr;
-  grid-template-rows: 675.5px 675.5px;
+  grid-template-rows: 720px 631px;
 }
 
-.sectors > article {
-  border: 1px solid greenyellow;
+/* .sectors > article {
+  border: 1px solid #333333;
+} */
+
+.sectors .bottom {
+  width: 250px;
+  height: 15px;
+}
+
+.sectors .one,
+.two {
+  padding: 200px 0 0 70px;
+}
+
+.sectors .one {
+  background: hsla(220, 20%, 3%,0.025);
+}
+
+.sectors .three {
+  background: hsla(220, 20%, 3%,0.05)
+}
+
+.sectors .four {
+  background: hsla(220, 20%, 3%,0.025)
+}
+.sectors .three,
+.four {
+  padding: 100px 0 0 70px;
+}
+/* .sectors .sector {
+  padding: 150px 0 0 70px;
+} */
+
+.sector .part {
+  padding-bottom: 25px;
+}
+
+.sector .top .autor {
+  padding: 15px 0 0 10px;  
+}
+
+.sector .arrow {
+  width: 20px;
+  height: 10px;
+  margin-top: 200px;
 }
