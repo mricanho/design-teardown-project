@@ -14,7 +14,8 @@ html {
 html, nav,
 .header-container,
 .first-section .tittle,
-.sector, .top {
+.sector, .top,
+.second-section .latest-posts { 
   display: flex;
 }
 
@@ -22,8 +23,6 @@ html, nav,
 .sector {
   flex-direction: column;
 }
-
-
 
 body {
   background-color: white;
@@ -114,45 +113,37 @@ nav {
   z-index: 999;
 }
 
-
 .first-section .sectors {
   display: grid;
   grid-template-columns: 720px 1fr;
   grid-template-rows: 720px 631px;
 }
 
-/* .sectors > article {
-  border: 1px solid #333333;
-} */
-
-.sectors .bottom {
+.first-section .sectors .bottom {
   width: 250px;
   height: 15px;
 }
 
-.sectors .one,
+.first-section .sectors .one,
 .two {
   padding: 200px 0 0 70px;
 }
 
-.sectors .one {
+.first-section .sectors .one {
   background: hsla(220, 20%, 3%,0.025);
 }
 
-.sectors .three {
+.first-section .sectors .three {
   background: hsla(220, 20%, 3%,0.05)
 }
 
-.sectors .four {
+.first-section .sectors .four {
   background: hsla(220, 20%, 3%,0.025)
 }
-.sectors .three,
+.first-section .sectors .three,
 .four {
   padding: 100px 0 0 70px;
 }
-/* .sectors .sector {
-  padding: 150px 0 0 70px;
-} */
 
 .sector .part {
   padding-bottom: 25px;
@@ -166,4 +157,32 @@ nav {
   width: 20px;
   height: 10px;
   margin-top: 200px;
+}
+
+.second-section .latest-posts {
+  position: absolute;
+  transform-origin: left center;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  letter-spacing: 5px;
+  margin-left: 20px;
+  margin-top: -40px;
+  font-weight: 600;
+}
+
+.second-section .latest-posts .line {
+  border-bottom: 2px solid black;
+  width: 75px;
+  margin: 0 10px 5px 0;
+}
+
+
+.second-section .sectors {
+  display: grid;
+  grid-template-columns: 720px 1fr 1fr;
+  grid-template-rows: 720px 1fr 1fr;
+  border: 5px solid salmon;
 }
