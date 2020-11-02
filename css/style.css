@@ -1,0 +1,74 @@
+/* degradados de grises:
+  1.hsla(220, 20%, 3%,0.05) = l4
+  2.hsla(220, 20%, 3%,0.3) = l3
+  3.hsla(220, 20%, 3%,0.7) = l2
+  4.hsla(220, 20%, 3%,0.9) = l1
+  */
+  
+html {
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  font-family: 'Belgrano', serif;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+}
+
+.l1 {
+  background: hsla(220, 20%, 3%,0.9);
+}
+
+.l2 {
+  background: hsla(220, 20%, 3%,0.7);
+}
+
+.l3 {
+  background: hsla(220, 20%, 3%,0.3);
+}
+
+.l4 {
+  background: hsla(220, 20%, 3%,0.05);
+}
+
+header {
+
+  height: 72px;
+  padding: 16px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.image {
+  width: 196px;
+  height: 71px;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-container .mark {
+  width: 50px;
+  padding: 7.48px 14.4px;
+  margin: 0 10px;
+  height: 20px;
+}
+
+.search-bar {
+  width: 350px;
+  height: 57px;
+}
