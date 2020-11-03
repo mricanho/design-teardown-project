@@ -42,6 +42,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-family: 'Belgrano', serif;
   color: #333333;
+  text-rendering: optimizeLegibility;
 }
 
 .l1 {
@@ -552,9 +553,64 @@ nav {
 }
 
 .sixth-section .person-of-the-week .extract a {
-  color: #2D79CA;
+  color: #333333;
 }
 
 .sixth-section .person-of-the-week .extract .italic {
   font-style: italic;
+}
+
+.seventh-section .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 641px);
+  grid-template-rows: repeat(3, 419px);
+  margin-top: 30px;
+}
+
+.seventh-section .grid .article {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.seventh-section .grid .img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.seventh-section .grid .article .h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.seventh-section .grid .article .what {
+  width: 485px;
+  margin-top: 30px;
+}
+
+.seventh-section .grid .article .autor {
+  margin-bottom: 15px;
+}
+
+.seventh-section .grid .article .autor a,
+.seventh-section .grid .article .autor {
+  color: #666666;
+  margin-right: 5px;
+}
+
+.seventh-section .grid .article .date {
+  letter-spacing: 1.3;
+  font-size: 12px;
+}
+
+.seventh-section .grid .article .text {
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 550;
+  color: #333333;
+}
+
+.seventh-section .grid .article .text a {
+  color: black;
 }
