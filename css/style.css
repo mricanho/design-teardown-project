@@ -15,14 +15,17 @@ html, nav,
 .header-container,
 .first-section .tittle,
 .sector, .top,
-.second-section .latest-posts,
+.second-section .vertical,
 .second-section .sectors .first-sector .article,
 .second-section .sectors .second-sector .container div,
 .second-section .sectors .second-sector .first-advertise .shopify,
 .third-section,
 .third-section .tv-ad,
 .fourth-section,
-.fifth-section { 
+.fifth-section,
+.sixth-section,
+.sixth-section .vertical,
+.sixth-section .container { 
   display: flex;
 }
 
@@ -167,7 +170,8 @@ nav {
   margin-top: 200px;
 }
 
-.second-section .latest-posts {
+.second-section .vertical,
+.sixth-section .vertical {
   position: absolute;
   transform-origin: left center;
   -webkit-transform: rotate(90deg);
@@ -179,9 +183,11 @@ nav {
   margin-left: 20px;
   margin-top: -40px;
   font-weight: 600;
+  font-size: 12px;
 }
 
-.second-section .latest-posts .line {
+.second-section .vertical .line,
+.sixth-section .vertical .line {
   border-bottom: 2px solid black;
   width: 75px;
   margin: 0 10px 5px 0;
@@ -510,4 +516,45 @@ nav {
   height: 500px;
   border: 0;
   background: #ABABAC;
+}
+
+.sixth-section .container {
+  width: 100%;
+  justify-content: center;
+}
+
+.sixth-section .person-of-the-week {
+  width: 1282px;
+  height: 276px;
+  display: flex;
+  margin: 60px 0 30px 0;
+  justify-content: space-between;
+}
+
+.sixth-section .photo-pw {
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+}
+
+.sixth-section .person-of-the-week .extract {
+  width: 1000px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sixth-section .person-of-the-week .extract h6 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.sixth-section .person-of-the-week .extract a {
+  color: #2D79CA;
+}
+
+.sixth-section .person-of-the-week .extract .italic {
+  font-style: italic;
 }
