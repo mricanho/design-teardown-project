@@ -18,7 +18,8 @@ html, nav,
 .second-section .latest-posts,
 .second-section .sectors .first-sector .article,
 .second-section .sectors .second-sector .container div,
-.second-section .sectors .second-sector .first-advertise .shopify { 
+.second-section .sectors .second-sector .first-advertise .shopify,
+.third-section { 
   display: flex;
 }
 
@@ -354,7 +355,8 @@ nav {
 }
 
 .second-section .sectors .second-sector .container 
-.second-advertise .ad2 .cat {
+.second-advertise .ad2 .cat,
+.third-section .tv-ad .cat {
   width: 260px;
   height: 220px;
   border: none;
@@ -364,18 +366,21 @@ nav {
 }
 
 .second-section .sectors .second-sector .container 
-.second-advertise .ad2 a {
+.second-advertise .ad2 a,
+.third-section .tv-ad a {
   color: white;
 }
 
 .second-section .sectors .second-sector .container 
-.second-advertise .ad2 footer {
+.second-advertise .ad2 footer,
+.third-section .tv-ad footer {
   height: 100px;
   font-size: 10px;
 }
 
 .second-section .sectors .second-sector .container 
-.second-advertise .ad2 button {
+.second-advertise .ad2 button,
+.third-section .tv-ad button {
   width: 175px;
   height: 50px;
   border: none;
@@ -383,7 +388,8 @@ nav {
 }
 
 .second-section .sectors .second-sector .container 
-.second-advertise .ad2 footer p {
+.second-advertise .ad2 footer p,
+.third-section .tv-ad footer p {
   margin-top: 20px;
 }
 
@@ -429,4 +435,24 @@ nav {
 .third-advertise .super-article .top .autor {
   margin-bottom: 20px;
   font-size: 15px;
+}
+
+.third-section {
+  width: 100%;
+  height: 624.312px;
+  box-sizing: border-box;
+  padding: 30px;
+  justify-content: center;
+}
+
+.third-section .tv-ad {
+  border-radius: 11px;
+  text-align: center;
+  color: white;
+  width: 1305px;
+  height: 574px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
