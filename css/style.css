@@ -189,6 +189,9 @@ nav {
 }
 
 .second-section .sectors .first-sector .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 30px 40px 0 40px;
   cursor: pointer;
   height: 508.47px;
@@ -233,22 +236,19 @@ nav {
 }
 
 .second-section .sectors .first-sector .article .arrow2 {
-  position: absolute;
   width: 20px;
   height: 20px;
   margin-top: 229px;
-  margin-left: -39px;
 }
 
 .second-section .sectors .first-sector .article:hover .arrow2 {
   background-color: black;
-  margin-left: -20px;
   width: 70px;
   height: 70px;
   margin-top: 180px;
 }
 
 .second-section .sectors .first-sector .special .arrow2 {
-  margin-top: 201px;
-  margin-left: -40px;
-}
+  margin-top: 185px;
+  margin-left: 5px;
+} 
