@@ -192,7 +192,9 @@ nav {
   margin-bottom: 10px;
 }
 
-.second-section .sectors .first-sector .article {
+.second-section .sectors .first-sector .article,
+.second-section .sectors .second-sector .container 
+.third-advertise {
   flex-direction: column;
   justify-content: center;
   padding: 30px 40px 0 40px;
@@ -201,7 +203,10 @@ nav {
   overflow: hidden;
 }
 
-.second-section .sectors .first-sector .article:hover {
+
+.second-section .sectors .first-sector .article:hover,
+.second-section .sectors .second-sector .container 
+.third-advertise:hover {
   transform: scale(1.1);
   background-color:hsla(220, 20%, 3%,0.05);
 }
@@ -211,7 +216,9 @@ nav {
   margin-bottom: 20px;
 }
 
-.second-section .sectors .first-sector .article .top .days {
+.second-section .sectors .first-sector .article .top .days,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top {
   margin-bottom: 10px;
   font-size: 11px;
   font-weight: lighter;
@@ -231,20 +238,26 @@ nav {
   font-size: 0.95em;
 }
 
-.second-section .sectors .first-sector .article .center {
+.second-section .sectors .first-sector .article .center,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .center {
   line-height: 2;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: lighter;
 }
 
-.second-section .sectors .first-sector .article .arrow2 {
+.second-section .sectors .first-sector .article .arrow2,
+.second-section .sectors .second-sector .container 
+.third-advertise .arrow2 {
   width: 20px;
   height: 20px;
   margin-top: 229px;
 }
 
-.second-section .sectors .first-sector .article:hover .arrow2 {
+.second-section .sectors .first-sector .article:hover .arrow2,
+.second-section .sectors .second-sector .container 
+.third-advertise:hover .arrow2 {
   background-color: black;
   width: 70px;
   height: 70px;
@@ -337,6 +350,7 @@ nav {
   text-align: center;
   color: white;
   align-items: center;
+  width: 498px;
 }
 
 .second-section .sectors .second-sector .container 
@@ -346,6 +360,7 @@ nav {
   border: none;
   background: #4C4D4E;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .second-section .sectors .second-sector .container 
@@ -372,10 +387,46 @@ nav {
   margin-top: 20px;
 }
 
-.second-section .sectors .second-sector .container .super-article {
-  width: 100%;
-  height: 100%;
-  box-sizing: content-box;
+.second-section .sectors .second-sector .container 
+.third-advertise {
+  cursor: pointer;
+  height: 690px;
 }
 
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article {
+  margin-top: -5px;
+}
 
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .days,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .tittle,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .autor,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .center,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .bottom,
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .bottom .arrow2 {
+  padding: 0;
+}
+
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .days {
+  margin-bottom: 10px;
+}
+
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .tittle {
+  margin-bottom: 30px;
+}
+
+.second-section .sectors .second-sector .container 
+.third-advertise .super-article .top .autor {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
