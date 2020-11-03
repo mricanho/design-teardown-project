@@ -456,3 +456,21 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  height: 171px;
+  box-sizing: border-box;  
+}
+
+.fourth-section .load-more p {
+  border-bottom: 5px solid #1E1F21;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 0.75em;
+  cursor: pointer;
+  width: fit-content;
+  line-height: 30px;
+  margin-top: 25%;
+}
