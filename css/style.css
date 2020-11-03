@@ -189,6 +189,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   transition: 0.1s ease-out;
+  margin-bottom: 10px;
 }
 
 .second-section .sectors .first-sector .article {
@@ -259,7 +260,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 683.5px;
-
+  margin-bottom: 10px;
+  height: 743.31px
 }
 
 .second-section .sectors .second-sector .container div {
@@ -280,6 +282,7 @@ nav {
   align-items: center;
   font-size: 12px;
   font-style: italic;
+  font-weight: lighter;
 }
 
 .second-section .first-advertise .tittle .down-arrow {
@@ -289,7 +292,13 @@ nav {
   margin-left: 180px;
 }
 
-.second-section .sectors .second-sector .container .first-advertise .shopify {
+.second-section .sectors .second-sector .container 
+.first-advertise {
+  margin-top: -350px;
+}
+
+.second-section .sectors .second-sector .container 
+.first-advertise .shopify {
   padding: 0 20px;
   border: 1px solid #dddddd;
   border-radius: 11px;
@@ -315,6 +324,52 @@ nav {
   height: 30px;
   border: none;
   border-radius: 3px;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 {
+  height: 694px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 11px;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 .cat {
+  width: 260px;
+  height: 220px;
+  border: none;
+  background: #4C4D4E;
+  margin-top: 20px;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 a {
+  color: white;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 footer {
+  height: 100px;
+  font-size: 10px;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 button {
+  width: 175px;
+  height: 50px;
+  border: none;
+  border-radius: 11px;
+}
+
+.second-section .sectors .second-sector .container 
+.second-advertise .ad2 footer p {
+  margin-top: 20px;
 }
 
 .second-section .sectors .second-sector .container .super-article {
