@@ -15,7 +15,10 @@ html, nav,
 .header-container,
 .first-section .tittle,
 .sector, .top,
-.second-section .latest-posts { 
+.second-section .latest-posts,
+.second-section .sectors .first-sector .article,
+.second-section .sectors .second-sector .container div,
+.second-section .sectors .second-sector .first-advertise .shopify { 
   display: flex;
 }
 
@@ -189,7 +192,6 @@ nav {
 }
 
 .second-section .sectors .first-sector .article {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 30px 40px 0 40px;
@@ -252,3 +254,73 @@ nav {
   margin-top: 185px;
   margin-left: 5px;
 } 
+
+.second-section .sectors .second-sector .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 683.5px;
+
+}
+
+.second-section .sectors .second-sector .container div {
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 40px 0 40px;
+  box-sizing: border-box;
+}
+
+.second-section .sectors .second-sector .container .first-advertise {
+  padding: 0;
+
+}
+
+.second-section .first-advertise .tittle {
+  padding: 0;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.second-section .first-advertise .tittle .down-arrow {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin-left: 180px;
+}
+
+.second-section .sectors .second-sector .container .first-advertise .shopify {
+  padding: 0 20px;
+  border: 1px solid #dddddd;
+  border-radius: 11px;
+  align-items: center;
+  width: 398px;
+  height: 207.45px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.second-section .sectors .second-sector .container 
+.first-advertise .shopify .logo-shopify {
+  width: 175px;
+  height: 29.14px;
+}
+
+.second-section .sectors .second-sector .container 
+.first-advertise .shopify button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+.second-section .sectors .second-sector .container .super-article {
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+
+
