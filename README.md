@@ -1,8 +1,11 @@
 # Design Teardown - Smashing Magazine
 
-In this project I use a 
+This project is a heatmap of the website https://www.smashingmagazine.com was made with flex-box and grid as well as 3 different types of fonts, fonts are an incredible resource to make the general design most approachable. 
 
-![screenshot](https://raw.githubusercontent.com/gasb150/Clone-old-Apple-website/feature-oldapple/assets/screenshot.png)
+The final lesson in this project is to be aware of how different shapes, colors, and positions from elements have different weights in the website, this will be very useful for the design of a website and to make it more accessible and comfortable to use for the user.
+
+
+![screenshot](../featureDev/screenshot.jpeg)
 
 
 <h2>Built with</h2>
@@ -14,7 +17,7 @@ In this project I use a
 <h2>Live demo</h2>
 <a href="https://mricanho.github.io/design-teardown-project/">Visit Page</a>
 
-<h2>Authors</h2>
+<h2>Author</h2>
 <p><strong>Miguel Ricaño</strong></p>
 <ul>
   <li>Github: <a href="https://github.com/mricanho">@MiguelRicaño</a>
