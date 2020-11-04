@@ -25,7 +25,8 @@ html, nav,
 .fifth-section,
 .sixth-section,
 .sixth-section .vertical,
-.sixth-section .container { 
+.sixth-section .container,
+.eigthth-section { 
   display: flex;
 }
 
@@ -467,13 +468,15 @@ nav {
   align-items: center;
 }
 
-.fourth-section {
+.fourth-section,
+.eigthth-section {
   justify-content: center;
   height: 171px;
   box-sizing: border-box;  
 }
 
-.fourth-section .load-more p {
+.fourth-section .load-more p,
+.eigthth-section .load-more p {
   border-bottom: 5px solid #1E1F21;
   letter-spacing: 1px;
   font-weight: 100;
