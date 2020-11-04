@@ -27,7 +27,7 @@ nav,
 .fifth-section,
 .sixth-section,
 .sixth-section .vertical,
-.sixth-section .container,
+.sixth-section .container3,
 .eigthth-section,
 .ninth-section,
 .tenth-section .vertical,
@@ -155,15 +155,15 @@ nav {
 
 .first-section .sectors .three {
   background: hsla(220, 20%, 3%, 0.05);
+  padding: 100px 0 0 70px;
+}
+
+.four {
+  padding: 100px 0 0 70px;
 }
 
 .first-section .sectors .four {
   background: hsla(220, 20%, 3%, 0.025);
-}
-
-.first-section .sectors .three,
-.four {
-  padding: 100px 0 0 70px;
 }
 
 .first-section .sector .part {
@@ -174,8 +174,8 @@ nav {
   padding: 15px 0 0 10px;
 }
 
-.first-section .sector .arrow,
-.second-section .arrow {
+.second-section .arrow,
+.first-section .sector .arrow {
   width: 20px;
   height: 10px;
   margin-top: 200px;
@@ -224,6 +224,11 @@ nav {
   overflow: hidden;
 }
 
+.second-section .sectors .second-sector .container .third-advertise {
+  cursor: pointer;
+  height: 690px;
+}
+
 .second-section .sectors .first-sector .article:hover,
 .second-section .sectors .second-sector .container .third-advertise:hover {
   transform: scale(1.1);
@@ -264,6 +269,11 @@ nav {
   font-weight: lighter;
 }
 
+.second-section .sectors .first-sector .special .arrow2 {
+  margin-top: 185px;
+  margin-left: 5px;
+}
+
 .second-section .sectors .first-sector .article .arrow2,
 .second-section .sectors .second-sector .container .third-advertise .arrow2 {
   width: 20px;
@@ -277,11 +287,6 @@ nav {
   width: 70px;
   height: 70px;
   margin-top: 180px;
-}
-
-.second-section .sectors .first-sector .special .arrow2 {
-  margin-top: 185px;
-  margin-left: 5px;
 }
 
 .second-section .sectors .second-sector .container {
@@ -301,9 +306,10 @@ nav {
 
 .second-section .sectors .second-sector .container .first-advertise {
   padding: 0;
+  margin-top: -350px;
 }
 
-.second-section .first-advertise .tittle {
+.second-section .first-advertise .tittle-s {
   padding: 0;
   margin-bottom: 20px;
   align-items: center;
@@ -317,10 +323,6 @@ nav {
   height: 10px;
   position: absolute;
   margin-left: 180px;
-}
-
-.second-section .sectors .second-sector .container .first-advertise {
-  margin-top: -350px;
 }
 
 .second-section .sectors .second-sector .container .first-advertise .shopify {
@@ -364,7 +366,7 @@ nav {
 }
 
 .second-section .sectors .second-sector .container .second-advertise .ad2 .cat,
-.third-section .tv-ad .cat {
+.third-section .tv-ad .cat2 {
   width: 260px;
   height: 220px;
   border: none;
@@ -374,19 +376,19 @@ nav {
 }
 
 .second-section .sectors .second-sector .container .second-advertise .ad2 a,
-.third-section .tv-ad a,
-.fifth-section a {
+.third-section .tv-ad .a-1,
+.fifth-section .a7 {
   color: white;
 }
 
 .second-section .sectors .second-sector .container .second-advertise .ad2 footer,
-.third-section .tv-ad footer {
+.third-section .tv-ad .f-footer {
   height: 100px;
   font-size: 10px;
 }
 
 .second-section .sectors .second-sector .container .second-advertise .ad2 button,
-.third-section .tv-ad button {
+.third-section .tv-ad .explore-features {
   width: 175px;
   height: 50px;
   border: none;
@@ -395,13 +397,8 @@ nav {
 }
 
 .second-section .sectors .second-sector .container .second-advertise .ad2 footer p,
-.third-section .tv-ad footer p {
+.third-section .tv-ad footer .p8 {
   margin-top: 20px;
-}
-
-.second-section .sectors .second-sector .container .third-advertise {
-  cursor: pointer;
-  height: 690px;
 }
 
 .second-section .sectors .second-sector .container .third-advertise .super-article {
@@ -458,15 +455,14 @@ nav {
   box-sizing: border-box;
 }
 
-.fourth-section .load-more p,
-.eigthth-section .load-more p,
-.eleventh-section .load-more p {
+.fourth-section .load-more .ps3,
+.eigthth-section .load-more .ps2,
+.eleventh-section .load-more .ps {
   border-bottom: 5px solid #1e1f21;
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 0.75em;
   cursor: pointer;
-  width: fit-content;
   line-height: 30px;
   margin-top: 25%;
 }
@@ -481,13 +477,13 @@ nav {
   color: white;
 }
 
-.fifth-section a {
+.fifth-section .a7 {
   font-size: 1.3em;
   text-shadow: 1px 2px 2px black;
 }
 
-.fifth-section button,
-.ninth-section .container button {
+.fifth-section .jump-to-table-of-contents,
+.ninth-section .container3 .button2 {
   width: 325px;
   height: 60px;
   border: none;
@@ -495,7 +491,7 @@ nav {
   cursor: pointer;
 }
 
-.fifth-section p {
+.fifth-section .p5 {
   font-size: 24px;
   width: 740px;
   line-height: 1.5;
@@ -508,7 +504,7 @@ nav {
   background: #ababac;
 }
 
-.sixth-section .container {
+.sixth-section .container3 {
   width: 100%;
   justify-content: center;
 }
@@ -541,7 +537,7 @@ nav {
   margin-bottom: 40px;
 }
 
-.sixth-section .person-of-the-week .extract a {
+.sixth-section .person-of-the-week .extract .a6 {
   color: #333;
 }
 
@@ -556,7 +552,7 @@ nav {
   margin-top: 30px;
 }
 
-.seventh-section .grid .article {
+.seventh-section .grid .article1 {
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -568,39 +564,39 @@ nav {
   margin-right: 20px;
 }
 
-.seventh-section .grid .article .h2 {
+.seventh-section .grid .article1 .h2 {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.seventh-section .grid .article .what {
+.seventh-section .grid .article1 .what {
   width: 485px;
   margin-top: 30px;
 }
 
-.seventh-section .grid .article .autor {
+.seventh-section .grid .article1 .autor1 {
   margin-bottom: 15px;
 }
 
-.seventh-section .grid .article .autor a,
-.seventh-section .grid .article .autor {
+.seventh-section .grid .article1 .autor1 .a5,
+.seventh-section .grid .article1 .autor1 {
   color: #666;
   margin-right: 5px;
 }
 
-.seventh-section .grid .article .date {
-  letter-spacing: 1.3;
+.seventh-section .grid .article1 .date {
+  letter-spacing: 1.3px;
   font-size: 12px;
 }
 
-.seventh-section .grid .article .text {
+.seventh-section .grid .article1 .text {
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
   font-weight: 550;
   color: #333;
 }
 
-.seventh-section .grid .article .text a {
+.seventh-section .grid .article1 .text .at {
   color: black;
 }
 
@@ -611,36 +607,36 @@ nav {
   justify-content: space-evenly;
 }
 
-.ninth-section .container {
+.ninth-section .container3 {
   display: flex;
 }
 
-.ninth-section .container .left {
+.ninth-section .container3 .left {
   margin-top: 50px;
 }
 
-.ninth-section .container .left .feature {
+.ninth-section .container3 .left .feature {
   margin-bottom: 30px;
 }
 
-.ninth-section .container .left .tittle,
-.ninth-section .container .left a {
+.ninth-section .container3 .left .tittle3,
+.ninth-section .container3 .left .a4 {
   color: white;
   font-size: 46px;
   margin-bottom: 50px;
 }
 
-.ninth-section .container .left p {
+.ninth-section .container3 .left .p1 {
   width: 828px;
   height: 99px;
   line-height: 2;
 }
 
-.ninth-section .container .right {
+.ninth-section .container3 .right {
   margin-left: 100px;
 }
 
-.ninth-section .container .right .book {
+.ninth-section .container3 .right .book {
   width: 322px;
   height: 414px;
   margin-top: -60px;
@@ -662,28 +658,28 @@ nav {
   grid-row-gap: 20px;
 }
 
-.tenth-section .grid .container {
+.tenth-section .grid .container2 {
   box-sizing: border-box;
   border-radius: 11px;
 }
 
-.tenth-section .big-container .grid .container h6 {
+.tenth-section .big-container .grid .container2 h6 {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   margin: 30px 0 10px 30px;
 }
 
-.tenth-section .big-container .grid .container h2 {
+.tenth-section .big-container .grid .container2 h2 {
   font-weight: 600;
   margin: 0 0 50px 30px;
 }
 
-.tenth-section .big-container .grid .container a {
+.tenth-section .big-container .grid .container2 .a3 {
   color: black;
 }
 
-.tenth-section .big-container .grid .container p {
+.tenth-section .big-container .grid .container2 .pa2 {
   width: 539px;
   line-height: 2;
   margin: 0 0 40px 30px;
@@ -691,21 +687,21 @@ nav {
   font-size: 1.1em;
 }
 
-.tenth-section .big-container .grid .container button {
+.tenth-section .big-container .grid .container2 .b {
   margin: 0 0 30px 30px;
   border-radius: 11px;
   height: 63px;
 }
 
-.tenth-section .big-container .grid .container .button {
+.tenth-section .big-container .grid .container2 .button-1 {
   width: 423px;
 }
 
-.tenth-section .big-container .grid .container .button-2 {
+.tenth-section .big-container .grid .container2 .button-2 {
   width: 265px;
 }
 
-.tenth-section .big-container .grid .container .button-3 {
+.tenth-section .big-container .grid .container2 .button-3 {
   width: 279px;
 }
 
@@ -720,7 +716,7 @@ nav {
   background: #ababac;
 }
 
-.tenth-section .big-container .grid .newsletter a {
+.tenth-section .big-container .grid .newsletter .a2 {
   color: whitesmoke;
 }
 
@@ -728,7 +724,8 @@ nav {
   margin: 0 0 40px 30px;
 }
 
-.tenth-section .big-container .grid .newsletter p {
+.tenth-section .big-container .grid .newsletter .pa,
+.tenth-section .big-container .grid .newsletter .last {
   width: 539px;
   height: 162px;
   font-family: 'Open Sans', sans-serif;
@@ -755,14 +752,14 @@ nav {
   margin-left: 116px;
 }
 
-footer {
+.finally {
   width: 100%;
   height: 672.64px;
   color: white;
   padding: 20px 0;
 }
 
-footer .tittle {
+footer .tittle-f {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
@@ -791,15 +788,15 @@ footer .footer-nav li::before {
   color: white;
 }
 
-footer .text {
+footer .text-f {
   text-align: center;
 }
 
-footer a {
+footer .a {
   color: white;
 }
 
-footer p {
+footer .last-part .text .p {
   margin-bottom: 15px;
   margin-top: 20px;
 }
@@ -820,7 +817,7 @@ footer .info ul {
   margin-top: 50px;
 }
 
-footer .info li {
+footer .last-part .info li {
   display: inline-block;
   font-size: 15px;
   padding: 10px;
