@@ -27,7 +27,9 @@ html, nav,
 .sixth-section .vertical,
 .sixth-section .container,
 .eigthth-section,
-.ninth-section { 
+.ninth-section,
+.tenth-section .vertical,
+.tenth-section .big-container { 
   display: flex;
 }
 
@@ -174,7 +176,8 @@ nav {
 }
 
 .second-section .vertical,
-.sixth-section .vertical {
+.sixth-section .vertical,
+.tenth-section .vertical {
   position: absolute;
   transform-origin: left center;
   -webkit-transform: rotate(90deg);
@@ -190,7 +193,8 @@ nav {
 }
 
 .second-section .vertical .line,
-.sixth-section .vertical .line {
+.sixth-section .vertical .line,
+.tenth-section .vertical .line {
   border-bottom: 2px solid black;
   width: 75px;
   margin: 0 10px 5px 0;
@@ -350,6 +354,7 @@ nav {
   height: 30px;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .second-section .sectors .second-sector .container 
@@ -398,6 +403,7 @@ nav {
   height: 50px;
   border: none;
   border-radius: 11px;
+  cursor: pointer;
 }
 
 .second-section .sectors .second-sector .container 
@@ -509,6 +515,7 @@ nav {
   height: 60px;
   border: none;
   border-radius: 11px;
+  cursor: pointer;
 }
 
 .fifth-section p {
@@ -639,9 +646,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.ninth-section .container .left .text {
-  margin-bottom: 40px;
-}
+
 
 .ninth-section .container .left .tittle,
 .ninth-section .container .left a {
@@ -653,6 +658,7 @@ nav {
 .ninth-section .container .left p {
   width: 828px;
   height: 99px;
+  line-height: 2;
 }
 
 .ninth-section .container .right {
@@ -664,4 +670,108 @@ nav {
   height: 414px;
   margin-top: -60px;
   background: #333333;
+}
+
+.tenth-section .big-container {
+  width: 100%;
+  height: 1400px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.tenth-section .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 617px);
+  grid-template-rows: 416px 803px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.tenth-section .grid .container {
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+
+.tenth-section .big-container .grid .container h6 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 30px 0 10px 30px;
+}
+
+.tenth-section .big-container .grid .container h2 {
+  font-weight: 600;
+  margin: 0 0 50px 30px;
+}
+
+.tenth-section .big-container .grid .container a {
+  color: black;
+}
+
+.tenth-section .big-container .grid .container p {
+  width: 539px;
+  line-height: 2;
+  margin: 0 0 40px 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+.tenth-section .big-container .grid .container button {
+  margin: 0 0 30px 30px;
+  border-radius: 11px;
+  height: 63px;
+}
+
+.tenth-section .big-container .grid .container .button {
+  width: 423px;
+}
+
+.tenth-section .big-container .grid .container .button-2 {
+  width: 265px;
+}
+
+.tenth-section .big-container .grid .container .button-3 {
+  width: 279px;
+}
+
+.tenth-section .big-container .grid .newsletter img {
+  width: 531px;
+  height: 299px;
+  margin: 20px 0 40px 0;
+  background: #ABABAC;
+}
+
+.tenth-section .big-container .grid .newsletter a {
+  color: whitesmoke;
+}
+
+.tenth-section .big-container .grid .newsletter h2 {
+  margin: 0 0 40px 30px;
+}
+
+.tenth-section .big-container .grid .newsletter p {
+  width: 539px;
+  height: 162px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: whitesmoke;
+  line-height: 2;
+  margin-left: 30px;
+}
+
+.tenth-section .big-container .grid .newsletter .input {
+  width: 539px;
+  height: 61px;
+  border-radius: 11px;
+  background: white;
+  margin: -20px 0 40px 30px;
+}
+
+.tenth-section .big-container .grid .newsletter .last {
+  text-align: center;
+  background: rgb(185, 185, 185);
+  width: 373px;
+  height: 72px;
+  border-radius: 11px;
+  margin-left: 116px;
 }
