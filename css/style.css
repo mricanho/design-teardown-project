@@ -29,7 +29,8 @@ html, nav,
 .eigthth-section,
 .ninth-section,
 .tenth-section .vertical,
-.tenth-section .big-container { 
+.tenth-section .big-container,
+.eleventh-section { 
   display: flex;
 }
 
@@ -476,14 +477,16 @@ nav {
 }
 
 .fourth-section,
-.eigthth-section {
+.eigthth-section,
+.eleventh-section {
   justify-content: center;
   height: 171px;
   box-sizing: border-box;  
 }
 
 .fourth-section .load-more p,
-.eigthth-section .load-more p {
+.eigthth-section .load-more p
+.eleventh-section .load-more p {
   border-bottom: 5px solid #1E1F21;
   letter-spacing: 1px;
   font-weight: 100;
@@ -732,6 +735,10 @@ nav {
 
 .tenth-section .big-container .grid .container .button-3 {
   width: 279px;
+}
+
+.tenth-section .big-container .grid .newsletter {
+  border-radius: 11px;
 }
 
 .tenth-section .big-container .grid .newsletter img {
