@@ -26,7 +26,8 @@ html, nav,
 .sixth-section,
 .sixth-section .vertical,
 .sixth-section .container,
-.eigthth-section { 
+.eigthth-section,
+.ninth-section { 
   display: flex;
 }
 
@@ -502,7 +503,8 @@ nav {
   text-shadow: 1px 2px 2px black;
 }
 
-.fifth-section button {
+.fifth-section button,
+.ninth-section .container button {
   width: 325px;
   height: 60px;
   border: none;
@@ -616,4 +618,50 @@ nav {
 
 .seventh-section .grid .article .text a {
   color: black;
+}
+
+.ninth-section {
+  width: 100%;
+  height: 409px;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.ninth-section .container {
+  display: flex;
+}
+
+.ninth-section .container .left {
+  margin-top: 50px;
+}
+
+.ninth-section .container .left .feature {
+  margin-bottom: 30px;
+}
+
+.ninth-section .container .left .text {
+  margin-bottom: 40px;
+}
+
+.ninth-section .container .left .tittle,
+.ninth-section .container .left a {
+  color: white;
+  font-size: 46px;
+  margin-bottom: 50px;
+}
+
+.ninth-section .container .left p {
+  width: 828px;
+  height: 99px;
+}
+
+.ninth-section .container .right {
+  margin-left: 100px;
+}
+
+.ninth-section .container .right .book {
+  width: 322px;
+  height: 414px;
+  margin-top: -60px;
+  background: #333333;
 }
