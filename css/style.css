@@ -4,17 +4,19 @@
   3.hsla(220, 20%, 3%,0.7) = l2
   4.hsla(220, 20%, 3%,0.9) = l1
   */
-  
+
 html {
   justify-content: center;
   font-family: sans-serif;
   line-height: 20px;
 }
 
-html, nav,
+html,
+nav,
 .header-container,
 .first-section .tittle,
-.sector, .top,
+.sector,
+.top,
 .second-section .vertical,
 .second-section .sectors .first-sector .article,
 .second-section .sectors .second-sector .container div,
@@ -30,7 +32,7 @@ html, nav,
 .ninth-section,
 .tenth-section .vertical,
 .tenth-section .big-container,
-.eleventh-section { 
+.eleventh-section {
   display: flex;
 }
 
@@ -46,33 +48,36 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-family: 'Belgrano', serif;
-  color: #333333;
+  color: #333;
   text-rendering: optimizeLegibility;
 }
 
 .l1 {
-  background: hsla(220, 20%, 3%,0.9);
+  background: hsla(220, 20%, 3%, 0.9);
 }
 
 .l2 {
-  background: hsla(220, 20%, 3%,0.7);
+  background: hsla(220, 20%, 3%, 0.7);
 }
 
 .l3 {
-  background: hsla(220, 20%, 3%,0.3);
+  background: hsla(220, 20%, 3%, 0.3);
 }
 
 .l4 {
-  background: hsla(220, 20%, 3%,0.05);
+  background: hsla(220, 20%, 3%, 0.05);
 }
 
-h1, h2,
-h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 700;
   box-sizing: border-box;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 37px;
 }
 
@@ -99,7 +104,7 @@ nav {
 .photo {
   width: 70px;
   height: 70px;
-  border: 1px solid #666666;
+  border: 1px solid #666;
 }
 
 .header-container {
@@ -119,7 +124,6 @@ nav {
   width: 350px;
   height: 57px;
 }
-
 
 .first-section .tittle {
   position: absolute;
@@ -146,16 +150,17 @@ nav {
 }
 
 .first-section .sectors .one {
-  background: hsla(220, 20%, 3%,0.025);
+  background: hsla(220, 20%, 3%, 0.025);
 }
 
 .first-section .sectors .three {
-  background: hsla(220, 20%, 3%,0.05)
+  background: hsla(220, 20%, 3%, 0.05);
 }
 
 .first-section .sectors .four {
-  background: hsla(220, 20%, 3%,0.025)
+  background: hsla(220, 20%, 3%, 0.025);
 }
+
 .first-section .sectors .three,
 .four {
   padding: 100px 0 0 70px;
@@ -166,7 +171,7 @@ nav {
 }
 
 .first-section .sector .top .autor {
-  padding: 15px 0 0 10px;  
+  padding: 15px 0 0 10px;
 }
 
 .first-section .sector .arrow,
@@ -201,7 +206,6 @@ nav {
   margin: 0 10px 5px 0;
 }
 
-
 .second-section .sectors .first-sector {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -211,8 +215,7 @@ nav {
 }
 
 .second-section .sectors .first-sector .article,
-.second-section .sectors .second-sector .container 
-.third-advertise {
+.second-section .sectors .second-sector .container .third-advertise {
   flex-direction: column;
   justify-content: center;
   padding: 30px 40px 0 40px;
@@ -221,12 +224,10 @@ nav {
   overflow: hidden;
 }
 
-
 .second-section .sectors .first-sector .article:hover,
-.second-section .sectors .second-sector .container 
-.third-advertise:hover {
+.second-section .sectors .second-sector .container .third-advertise:hover {
   transform: scale(1.1);
-  background-color:hsla(220, 20%, 3%,0.05);
+  background-color: hsla(220, 20%, 3%, 0.05);
 }
 
 .second-section .sectors .first-sector .article .top {
@@ -235,12 +236,11 @@ nav {
 }
 
 .second-section .sectors .first-sector .article .top .days,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top {
+.second-section .sectors .second-sector .container .third-advertise .super-article .top {
   margin-bottom: 10px;
   font-size: 11px;
   font-weight: lighter;
-  color: #666666;
+  color: #666;
 }
 
 .second-section .sectors .first-sector .article .top .tittle,
@@ -252,13 +252,12 @@ nav {
 
 .second-section .sectors .first-sector .article .top .autor,
 .second-section .autor a {
-  color: #333333;
+  color: #333;
   font-size: 0.95em;
 }
 
 .second-section .sectors .first-sector .article .center,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .center {
+.second-section .sectors .second-sector .container .third-advertise .super-article .center {
   line-height: 2;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -266,16 +265,14 @@ nav {
 }
 
 .second-section .sectors .first-sector .article .arrow2,
-.second-section .sectors .second-sector .container 
-.third-advertise .arrow2 {
+.second-section .sectors .second-sector .container .third-advertise .arrow2 {
   width: 20px;
   height: 20px;
   margin-top: 229px;
 }
 
 .second-section .sectors .first-sector .article:hover .arrow2,
-.second-section .sectors .second-sector .container 
-.third-advertise:hover .arrow2 {
+.second-section .sectors .second-sector .container .third-advertise:hover .arrow2 {
   background-color: black;
   width: 70px;
   height: 70px;
@@ -285,14 +282,14 @@ nav {
 .second-section .sectors .first-sector .special .arrow2 {
   margin-top: 185px;
   margin-left: 5px;
-} 
+}
 
-.second-section .sectors .second-sector .container{
+.second-section .sectors .second-sector .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 683.5px;
   margin-bottom: 10px;
-  height: 743.31px
+  height: 743.31px;
 }
 
 .second-section .sectors .second-sector .container div {
@@ -304,7 +301,6 @@ nav {
 
 .second-section .sectors .second-sector .container .first-advertise {
   padding: 0;
-
 }
 
 .second-section .first-advertise .tittle {
@@ -323,15 +319,13 @@ nav {
   margin-left: 180px;
 }
 
-.second-section .sectors .second-sector .container 
-.first-advertise {
+.second-section .sectors .second-sector .container .first-advertise {
   margin-top: -350px;
 }
 
-.second-section .sectors .second-sector .container 
-.first-advertise .shopify {
+.second-section .sectors .second-sector .container .first-advertise .shopify {
   padding: 0 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 11px;
   align-items: center;
   width: 398px;
@@ -343,14 +337,12 @@ nav {
   cursor: pointer;
 }
 
-.second-section .sectors .second-sector .container 
-.first-advertise .shopify .logo-shopify {
+.second-section .sectors .second-sector .container .first-advertise .shopify .logo-shopify {
   width: 175px;
   height: 29.14px;
 }
 
-.second-section .sectors .second-sector .container 
-.first-advertise .shopify button {
+.second-section .sectors .second-sector .container .first-advertise .shopify button {
   width: 100px;
   height: 30px;
   border: none;
@@ -358,8 +350,7 @@ nav {
   cursor: pointer;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 {
+.second-section .sectors .second-sector .container .second-advertise .ad2 {
   height: 694px;
   box-sizing: border-box;
   padding: 0;
@@ -372,33 +363,29 @@ nav {
   width: 498px;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 .cat,
+.second-section .sectors .second-sector .container .second-advertise .ad2 .cat,
 .third-section .tv-ad .cat {
   width: 260px;
   height: 220px;
   border: none;
-  background: #4C4D4E;
+  background: #4c4d4e;
   margin-top: 20px;
   cursor: pointer;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 a,
+.second-section .sectors .second-sector .container .second-advertise .ad2 a,
 .third-section .tv-ad a,
 .fifth-section a {
   color: white;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 footer,
+.second-section .sectors .second-sector .container .second-advertise .ad2 footer,
 .third-section .tv-ad footer {
   height: 100px;
   font-size: 10px;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 button,
+.second-section .sectors .second-sector .container .second-advertise .ad2 button,
 .third-section .tv-ad button {
   width: 175px;
   height: 50px;
@@ -407,52 +394,39 @@ nav {
   cursor: pointer;
 }
 
-.second-section .sectors .second-sector .container 
-.second-advertise .ad2 footer p,
+.second-section .sectors .second-sector .container .second-advertise .ad2 footer p,
 .third-section .tv-ad footer p {
   margin-top: 20px;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise {
+.second-section .sectors .second-sector .container .third-advertise {
   cursor: pointer;
   height: 690px;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article {
+.second-section .sectors .second-sector .container .third-advertise .super-article {
   margin-top: -5px;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .days,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .tittle,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .autor,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .center,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .bottom,
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .bottom .arrow2 {
+.second-section .sectors .second-sector .container .third-advertise .super-article .top,
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .days,
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .tittle,
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .autor,
+.second-section .sectors .second-sector .container .third-advertise .super-article .center,
+.second-section .sectors .second-sector .container .third-advertise .super-article .bottom,
+.second-section .sectors .second-sector .container .third-advertise .super-article .bottom .arrow2 {
   padding: 0;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .days {
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .days {
   margin-bottom: 10px;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .tittle {
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .tittle {
   margin-bottom: 30px;
 }
 
-.second-section .sectors .second-sector .container 
-.third-advertise .super-article .top .autor {
+.second-section .sectors .second-sector .container .third-advertise .super-article .top .autor {
   margin-bottom: 20px;
   font-size: 15px;
 }
@@ -481,13 +455,13 @@ nav {
 .eleventh-section {
   justify-content: center;
   height: 171px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 .fourth-section .load-more p,
 .eigthth-section .load-more p,
 .eleventh-section .load-more p {
-  border-bottom: 5px solid #1E1F21;
+  border-bottom: 5px solid #1e1f21;
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 0.75em;
@@ -507,7 +481,7 @@ nav {
   color: white;
 }
 
-.fifth-section a{
+.fifth-section a {
   font-size: 1.3em;
   text-shadow: 1px 2px 2px black;
 }
@@ -531,7 +505,7 @@ nav {
   width: 900px;
   height: 500px;
   border: 0;
-  background: #ABABAC;
+  background: #ababac;
 }
 
 .sixth-section .container {
@@ -568,7 +542,7 @@ nav {
 }
 
 .sixth-section .person-of-the-week .extract a {
-  color: #333333;
+  color: #333;
 }
 
 .sixth-section .person-of-the-week .extract .italic {
@@ -610,7 +584,7 @@ nav {
 
 .seventh-section .grid .article .autor a,
 .seventh-section .grid .article .autor {
-  color: #666666;
+  color: #666;
   margin-right: 5px;
 }
 
@@ -623,7 +597,7 @@ nav {
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
   font-weight: 550;
-  color: #333333;
+  color: #333;
 }
 
 .seventh-section .grid .article .text a {
@@ -649,8 +623,6 @@ nav {
   margin-bottom: 30px;
 }
 
-
-
 .ninth-section .container .left .tittle,
 .ninth-section .container .left a {
   color: white;
@@ -672,7 +644,7 @@ nav {
   width: 322px;
   height: 414px;
   margin-top: -60px;
-  background: #333333;
+  background: #333;
 }
 
 .tenth-section .big-container {
@@ -745,7 +717,7 @@ nav {
   width: 531px;
   height: 299px;
   margin: 20px 0 40px 0;
-  background: #ABABAC;
+  background: #ababac;
 }
 
 .tenth-section .big-container .grid .newsletter a {
@@ -816,7 +788,7 @@ footer .footer-nav li {
 
 footer .footer-nav li::before {
   content: "• ";
-  color:  white;
+  color: white;
 }
 
 footer .text {
