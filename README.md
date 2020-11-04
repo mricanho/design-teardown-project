@@ -26,7 +26,7 @@ The final lesson in this project is to be aware of how different shapes, colors,
   
 <h2>Contributing</h2>
 <p>Contributions, issues, and feature requests are welcome!<p>
-<p>Feel free to check the <a href="https://github.com/gasb150/Clone-old-Apple-website/issues/1">issues page.</a></p>
+<p>Feel free to check the <a href="https://github.com/mricanho/design-teardown-project/issues/2">issues page.</a></p>
  
 <h2>Show your support</h2>
 <p> Give a 
@@ -34,4 +34,4 @@ The final lesson in this project is to be aware of how different shapes, colors,
   if you like this project!</p>
   
 <h2>License</h2>
-  <p>This project is <a href="../clone-old-apple-website/LICENSE">MIT</a> licensed.</p>
+  <p>This project is <a href="../design-teardown-project/LICENSE">MIT</a> licensed.</p>
